@@ -1,1 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    /* background-color: #f4f4f4; */
+    background-color: green;
+}
 
+h2,
+h1 {
+    color: #333;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label,
+input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #333;
+}
+
+.form-wrapper {
+    background-color: #008000;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-content {
+    background-color: #ffff00;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signup-link {
+    display: block;
+    margin-top: 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .form-wrapper {
+        padding: 10px;
+    }
+
+    .form-content {
+        padding: 15px;
+    }
+
+    input[type="email"],
+    input[type="password"],
+    button {
+        font-size: 14px;
+    }
+}
